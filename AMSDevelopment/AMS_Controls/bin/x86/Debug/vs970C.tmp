@@ -1,0 +1,2191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AMS_Controls
+</name>
+</assembly>
+<members>
+<member name="P:AMS_Controls.Settings.Validators">
+	<summary>
+ Gets the list of the application's validator controls.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterDataLoading">
+	<summary>
+ Fires up after data has been loaded (for header - detail : fires up after header data has been loaded).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterDetailDataLoading">
+	<summary>
+ Fires up after data is loaded into a detail grid.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterDefaultValidation">
+	<summary>
+ Fires up after performing data sourced field validations.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterFormLoad">
+	<summary>
+ Fires up after default form load events specified by the control have occured.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterFormShown">
+	<summary>
+ Fires up after default form shown events specified by the control have occured.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterHeaderSave">
+	<summary>
+ Fires up after performing data saving (when in header-detail approach).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.AfterSave">
+	<summary>
+ Fires up after performing data saving.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.BeforeDefaultValidation">
+	<summary>
+ Fires up before performing data sourced field validations.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.BeforeFormLoad">
+	<summary>
+ Fires up before default form load events specified by the control have occured.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.BeforeFormShown">
+	<summary>
+ Fires up before default form shown events specified by the control have occured.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.PickListBinder.BeforeSave">
+	<summary>
+ Fires up after validations and before performing data saving.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.QueryGenerationEnum.Auto">
+	<summary>
+ Auto-generated based on the the data source.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.QueryGenerationEnum.Custom">
+	<summary>
+ Custom data source query statement.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.QueryGenerationEnum">
+	<summary>
+ Query statement generation enumerations.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.PrintCheckVisibilityEnum.Always">
+	<summary>
+ Visible always.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.PrintCheckVisibilityEnum.OnNewRecord">
+	<summary>
+ Visible only if new record is currently created.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.PrintCheckVisibilityEnum.Invisible">
+	<summary>
+ Not visible.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.PrintCheckVisibilityEnum">
+	<summary>
+ Print check box visibility enumerations.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.BindingInfo.BindedControl">
+	<summary>
+ Gets or sets binded control.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.BindingInfo.FieldName">
+	<summary>
+ Gets or sets the datasource field name binded to the control.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.BindingInfo.#ctor(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Creates a new instance of BindingInfo.
+ </summary>
+	<param name="control"></param>
+	<param name="field"></param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.BindingInfo">
+	<summary>
+ Control binding information.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.DataLoadingEventArgs.DataSource">
+	<summary>
+ Determines the loaded data source generated from the given QueryStatement.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.DataLoadingEventArgs.ErrorMessage">
+	<summary>
+ Determines encountered error message upon data loading.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.DataLoadingEventArgs.Grid">
+	<summary>
+ Determines the loaded C1FlexGrid.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.DataLoadingEventArgs.Info">
+	<summary>
+ Determines the actual parented detail data source information.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.DataLoadingEventArgs.QueryStatement">
+	<summary>
+ Determines the sql statement used for the data loading.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.DataLoadingEventArgs">
+	<summary>
+ Data loading event arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.ConnectionString">
+	<summary>
+ Gets or sets the database connection string.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.CommandText">
+	<summary>
+ Gets or sets the data source select statement.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.DetailDataSources(System.Int32)">
+	<summary>
+ Gets the specified details value data source in the specified index (can also be accessed using Details.DataSources(index).ViewingGrid.DataSource).
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.DetailDataSources(System.String)">
+	<summary>
+ Gets the specified details value data source with the specified pattern table name (can also be accessed using Details.DataSources(index).ViewingGrid.DataSource).
+ </summary>
+	<param name="table">Pattern table name.</param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.Details">
+	<summary>
+ Gets the collection of detail data sources.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSourceInfo.ViewingCommandText">
+	<summary>
+ Gets or sets the command text used to view the complete viewing fields and values.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DataSourceInfo.SetDetailDataSourceValue(System.Int32,System.String,System.Object)">
+	<summary>
+ Sets the value of the whole field in the specified detail grid data source table.
+ </summary>
+	<param name="index ">Table detail index.</param>
+	<param name="field">Field name.</param>
+	<param name="value">Value to assign.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DataSourceInfo.SetDetailDataSourceValue(System.String,System.String,System.Object)">
+	<summary>
+ Sets the value of the whole field in the specified detail grid data source table.
+ </summary>
+	<param name="table">Table name.</param>
+	<param name="field">Field name.</param>
+	<param name="value">Value to assign.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DataSourceInfo.SetDetailDataSourceValue(System.Data.DataTable,System.String,System.Object)">
+	<summary>
+ Sets the value of the whole field in the specified detail grid data source table.
+ </summary>
+	<param name="table">Table</param>
+	<param name="field">Field name.</param>
+	<param name="value">Value to assign.</param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.DataSourceInfo">
+	<summary>
+ Data source information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceCollection.DataSources(System.Int32)">
+	<summary>
+ Gets the detail data source information in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceCollection.DataSources(System.String)">
+	<summary>
+ Gets the detail data source information with the specified table name in the collection.
+ </summary>
+	<param name="tablename"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceCollection.Add(AMS_Controls.PickListBinder.DetailDataSourceInfo)">
+	<summary>
+ Adds a new detail data source information in the collection.
+ </summary>
+	<param name="detail"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceCollection.Contains(AMS_Controls.PickListBinder.DetailDataSourceInfo)">
+	<summary>
+ Determines whether the specified data source information is existing within the collection or not.
+ </summary>
+	<param name="detail"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceCollection.Contains(System.String)">
+	<summary>
+ Determines whether the specified data source information with the specified main database table name is existing within the collection or not.
+ </summary>
+	<param name="tablename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceCollection.Remove(AMS_Controls.PickListBinder.DetailDataSourceInfo)">
+	<summary>
+ Removes the specified detail data source information within the collection.
+ </summary>
+	<param name="detail"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceCollection.Remove(System.String)">
+	<summary>
+ Removes the specified detail data source information with the specified main database table name within the collection.
+ </summary>
+	<param name="tablename"></param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.DetailDataSourceCollection">
+	<summary>
+ Collection of detail data source information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ApplyForeignKeyAssignment">
+	<summary>
+ Gets or sets whether to apply relative foreign key value from header primary key value or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.CommandText">
+	<summary>
+ Gets or sets the main database table's command text.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.Connection">
+	<summary>
+ Gets or sets the detail data source connection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ConnectionString">
+	<summary>
+ Gets the connection string that was used to load data to the data sources.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.DetailTable">
+	<summary>
+ Gets the detail table to where all changes and modifications are currently taking effect into.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.DeleteCommand">
+	<summary>
+ Gets the delete command generated from the initial connection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.EventArgument">
+	<summary>
+ Gets or sets the monitoring event argument.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ErrorMessage">
+	<summary>
+ Gets the last encountered error message upon executing data update.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.LoadingImageBox">
+	<summary>
+ Gets or sets the associated loading picture box upon data loading of the binded viewing grid.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.InsertCommand">
+	<summary>
+  Gets the insert command generated from the initial connection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ParentBinder">
+	<summary>
+ Gets or sets the current parent binder.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.QueryStatements">
+	<summary>
+  Gets the current referenced query statements.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.Transaction">
+	<summary>
+ Gets or sets the current header and detail connection transaction.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.UpdateCommand">
+	<summary>
+  Gets the update command generated from the initial connection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ViewingCommandText">
+	<summary>
+ Gets or sets the viewing command text (if there is) that can be populated in the specified ViewingGrid.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DetailDataSourceInfo.ViewingGrid">
+	<summary>
+ Gets or sets the viewing grid to where the data source generated from the ViewingCommandText will be displayed.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.#ctor">
+	<summary>
+ Creates a new instance of DetailDataSourceInfo.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.#ctor(System.String)">
+	<summary>
+ Creates a new instance of DetailDataSourceInfo.
+ </summary>
+	<param name="connection">Connection string that was used to load records in the data sources.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.AttachDataSourceHandler">
+	<summary>
+ Provides binding handler to the viewing grid's events.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.ReloadPatternTable(System.String)">
+	<summary>
+ Reloads the patter data table to generate the pattern sql statements. 
+ </summary>
+	<param name="connection">Database connection string.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.ReloadViewingPane(System.String)">
+	<summary>
+ Reloads the data source of a binded grid using the command text assigned in the ViewingCommandText.
+ </summary>
+	<param name="connection"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.RemoveDatasourceHandler">
+	<summary>
+ Removes the viewing grid's datasource event handlers.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.SaveDetails(System.String,System.String)">
+	<summary>
+ Execute saving of each detail's field information to the database.
+ </summary>
+	<param name="parentkeyname">Parent transaction's key name.</param>
+	<param name="value">Parent transaction's key value.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.ReloadPatternTableAsync(System.String)">
+	<summary>
+ Reloads the patter data table to generate the pattern sql statements asynchronously.
+ </summary>
+	<param name="connection"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.ReloadViewingPaneAsync(System.String)">
+	<summary>
+ Reloads the data source of a binded grid using the command text assigned in the ViewingCommandText asynchronously.
+ </summary>
+	<param name="connection"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.DetailDataSourceInfo.SaveDetailsAsync(System.String,System.String)">
+	<summary>
+ Execute saving of each detail's field information to the database asynchronously.
+ </summary>
+	<param name="parentkeyname">Parent transaction's key name.</param>
+	<param name="value">Parent transaction's key value.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.DetailDataSourceInfo">
+	<summary>
+ Details data source information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.FieldInfo.FieldName">
+	<summary>
+ Gets the field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.FieldInfo.DataType">
+	<summary>
+ Gets the field's data type.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.FieldInfo.FieldValue">
+	<summary>
+ Gets or sets the field's value.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.FieldInfo.#ctor(System.String,System.Type,System.Object)">
+	<summary>
+ Creates a new instance of FieldInfo.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.FieldInfo">
+	<summary>
+ Field information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.FieldCollection.Fields(System.Int32)">
+	<summary>
+ Gets the specified field information in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.FieldCollection.Fields(System.String)">
+	<summary>
+ Gets the specified field information with the specified field name in the collection.
+ </summary>
+	<param name="fieldname">Field name.</param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.FieldCollection.Add(AMS_Controls.PickListBinder.FieldInfo)">
+	<summary>
+ Adds a new field information in the collection.
+ </summary>
+	<param name="fi"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.FieldCollection.Contains(AMS_Controls.PickListBinder.FieldInfo)">
+	<summary>
+ Validates whether the specified field information is already existing in the collection or not.
+ </summary>
+	<param name="fi"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.FieldCollection.Contains(System.String)">
+	<summary>
+ Validates whether the specified field information with the specified field name is already existing in the collection or not.
+ </summary>
+	<param name="fieldname">Field name.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.FieldCollection">
+	<summary>
+ Collection of field information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.ConnectionString">
+	<summary>
+ Gets the connection string used to generate the command texts.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.DataSource">
+	<summary>
+ Gets or sets the query statement's reference data source.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.Execution">
+	<summary>
+ Gets or sets whether query to be executed is either the auto-generated or the custom-generated.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.InsertStatement">
+	<summary>
+ Gets the datasource-generated insert statement.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.InsertStatementCustom">
+	<summary>
+ Gets or sets the custom insert statement to execute when Execution property is set to Custom.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.KeyIndex">
+	<summary>
+ Gets or sets primary key field's index.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.KeyName">
+	<summary>
+ Gets or sets primary key field's name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.UpdateStatement">
+	<summary>
+ Gets the datasource-generated update statement.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatementInfo.UpdateStatementCustom">
+	<summary>
+ Gets or sets the custom update statement to execute when Execution property is set to Custom 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.QueryStatementInfo.#ctor">
+	<summary>
+ Creates a new instance of QueryStatementInfo.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.QueryStatementInfo.#ctor(System.String)">
+	<summary>
+ Creates a new instance of QueryStatementInfo.
+ </summary>
+	<param name="connection">Determines the connection string to be used as .</param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.QueryStatementInfo">
+	<summary>
+ Insert and update statements.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.RequiredFieldInfo.ClipSeparator">
+	<summary>
+ Gets or sets field name clip separator string.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.RequiredFieldInfo.FieldNames">
+	<summary>
+ Gets or sets required field list of names.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.RequiredFieldInfo">
+	<summary>
+ Required field information.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.SavingEventArgs.Cancel">
+	<summary>
+ Determines whether to cancel to whole saving process or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.SavingEventArgs.ErrorMessage">
+	<summary>
+ If not saved, states the encountered error.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.SavingEventArgs.QueryStatement">
+	<summary>
+ States the query statement that will be / has been executed.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.SavingEventArgs.Saved">
+	<summary>
+ Determines whether the data is saved or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.SavingEventArgs">
+	<summary>
+ Data saving events arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.ValidationEventArgs.Cancel">
+	<summary>
+ Determines whether to cancel the whole saving process or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.ValidationEventArgs.Valid">
+	<summary>
+ Determines whether data have passed all necessary validations.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.PickListBinder.ValidationEventArgs.ValidatedControl">
+	<summary>
+ If not valid, states the last invalidated control.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder.ValidationEventArgs">
+	<summary>
+ Data validation event arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.BackButton">
+	<summary>
+ Gets the PickListBinder's 'Back' button.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.ContainerForm">
+	<summary>
+ Gets the current form container of the PickListBinder.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.DataSource">
+	<summary>
+ Gets the current data source information of the PickListBinder.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.Fields">
+	<summary>
+ Gets the data source field collection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.IsNew">
+	<summary>
+ Gets whether current state of creating new record or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.ProgressBar">
+	<summary>
+ Gets the PickListBinder's progress bar.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.QueryStatements">
+	<summary>
+ Gets the uery statement information of then PickListBinder.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.ParentFormShown">
+	<summary>
+ Gets whether the current residing form is already shown or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.PrintCheckVisibility">
+	<summary>
+ Gets or sets how the print upon saving check box will be available to the user.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.PrintChecked">
+	<summary>
+ Gets whether the print upon saving checkbox is checked or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.PrintCheckVisible">
+	<summary>
+ Gets or sets whether the print upon saving checkbox is visible or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.RequiredFields">
+	<summary>
+ Gets the PickListBinder's required field information.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.SaveButton">
+	<summary>
+ Gets the PickListBinder's 'Save' button.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.PickListBinder.StatusBarText">
+	<summary>
+ Gets or sets the status bar's text association (in the leftmost side).
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.RaiseSaveClick">
+	<summary>
+ Calls and triggers the save button's event.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.ReloadBindings">
+	<summary>
+ Reloads and reinitialize binding values.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.SetFieldName(System.Windows.Forms.Control,System.String)">
+	<summary>
+ Sets the datasource field name for the given control.
+ </summary>
+	<param name="ctrl">Binded control.</param>
+	<param name="name">Field name.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.CanExtend(System.Object)">
+	<summary>
+ Validates whether control is supported or not.
+ </summary>
+	<param name="extendee"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.PickListBinder.GetFieldName(System.Windows.Forms.Control)">
+	<summary>
+ Gets the field name binded to the specified control.
+ </summary>
+	<param name="ctrl">Binded control.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.PickListBinder">
+	<summary>
+ Pick list / maintenance forms data binder and save functionality provider.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.Validator.#ctor(System.Windows.Forms.IWin32Window)">
+	<summary>
+ Creates a new instance of TAMS20.Components.Validator.
+ </summary>
+	<param name="owner">Any object that implements IWin32Window interface to serve as the Validator's container.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.Validator.ApplyHighlighter(System.Windows.Forms.Form,DevComponents.DotNetBar.Validator.Highlighter)">
+	<summary>
+ Applies control highlights to each of the supported controls inside the specified form.
+ </summary>
+	<param name="owner">Form to apply the control highlights into.</param>
+	<param name="highlighter">Highlighter control to refer.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.Validator.ApplyHighlighter(System.Windows.Forms.Control,DevComponents.DotNetBar.Validator.Highlighter)">
+	<summary>
+ Applies control highlights to the specified control (or for each controls inside it).
+ </summary>
+	<param name="control">Control to apply the highlights into.</param>
+	<param name="highlighter">Highlighter control to refer.</param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.Components.Validator">
+	<summary>
+ Derived class from a DevComponents.DotNetBar.Validator.SuperValidator to explicitly implement it even not thru design time.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.Components.ValidatorCollection.Validator(System.Int32)">
+	<summary>
+ Gets or sets the Validator object the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.Components.ValidatorCollection.Validator(System.Windows.Forms.IWin32Window)">
+	<summary>
+ Gets or sets the Validator object with the specified owner in the collection.
+ </summary>
+	<param name="owner"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.ValidatorCollection.Add(System.Windows.Forms.IWin32Window)">
+	<summary>
+ Adds a Validator object with the specified owner in the collection.
+ </summary>
+	<param name="owner"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.ValidatorCollection.Contains(System.Windows.Forms.IWin32Window)">
+	<summary>
+ Determines whether a validator associated with the specified owner already exists within the collection.
+ </summary>
+	<param name="owner"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.ValidatorCollection.Remove(System.Windows.Forms.IWin32Window)">
+	<summary>
+ Removes the specified Validator with the specified owner within the collection.
+ </summary>
+	<param name="owner"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.ValidatorCollection.Dispose(System.Boolean)">
+	<summary>
+ Dispose off any resources used by the class to free up memory space.
+ </summary>
+	<param name="disposing"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Components.ValidatorCollection.Dispose">
+	<summary>
+ Dispose off any resources used by the class to free up memory space.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.Components.ValidatorCollection">
+	<summary>
+ Collection of the system's form validators.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AMS_Controls.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:AMS_Controls.My.Resources.Resources.highligthedwithborder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AMS_Controls.My.Resources.Resources.validator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="T:AMS_Controls.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.ListViewItemSelectionEnum.MouseHover">
+	<summary>
+ On mouse hover.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.ListViewItemSelectionEnum.MouseClickAndKeyboard">
+	<summary>
+ On mouse click.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.ListViewItemSelectionEnum">
+	<summary>
+ Grid listview item selection mode enumerations.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.NoDataDisplayEnum.AsDisplayed">
+	<summary>
+ Grid will display default loaded columns when there is no data.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.NoDataDisplayEnum.NoItemsCouldBeViewedDisplay">
+	<summary>
+ Grid will display 'No item(s) could be displayed in this view' message when there is not data.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.NoDataDisplayEnum">
+	<summary>
+ No data display enumerations.
+ </summary>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.ViewingFlexGrid.AfterDataLoading">
+	<summary>
+ Fires up after data has been loaded to the grid.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.ViewingFlexGrid.AfterNodeSelect">
+	<summary>
+ Fires up when after a row node is selected by the user (fires only if grid is in treeview mode).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="E:AMS_Controls.ViewingFlexGrid.ListItemDoubleClick">
+	<summary>
+ Fires up after a cell is double clicked by the user (fires only if grid is in listview mode).
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.BindedTable">
+	<summary>
+ Determines the data table to be / has been binded to the grid.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.Columns">
+	<summary>
+ Determines number of data soure columns binded to the grid.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.ErrorMessage">
+	<summary>
+ Determines error message encountered with upon data binding.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.Loaded">
+	<summary>
+ Determines whether the data has been loaded to grid or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.QueryStatement">
+	<summary>
+ Determines query statement to / has been executed.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs.Rows">
+	<summary>
+ Determines number of rows loaded in the grid.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.DataLoadingEventArgs">
+	<summary>
+ Data loading event arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.DataSourceInfo.CommandText">
+	<summary>
+ Gets or sets the data source's SQL statement.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.DataSourceInfo.ConnectionString">
+	<summary>
+ Gets or sets the data source's database connection string.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.DataSourceInfo">
+	<summary>
+ Data source binding settings.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.GradientColorInfo.BackColor1">
+	<summary>
+ Gets or sets the 1st backcolor pattern.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.GradientColorInfo.BackColor2">
+	<summary>
+ Gets or sets the 2nd backcolor pattern.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GradientColorInfo.#ctor(AMS_Controls.ViewingFlexGrid)">
+	<summary>
+ Creates a new instance of GradientColorInfo.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.GradientColorInfo">
+	<summary>
+ Gradient color patterns.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.#ctor(AMS_Controls.ViewingFlexGrid)">
+	<summary>
+ Creates a new instance of ListItemCollection.
+ </summary>
+	<param name="grid"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Clear">
+	<summary>
+ Removes all item in the collection.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.String)">
+	<summary>
+ Creates and adds a ListViewItem in the collection with the specified information.
+ </summary>
+	<param name="text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.String,System.Int32)">
+	<summary>
+ Creates and adds a ListViewItem in the collection with the specified information.
+ </summary>
+	<param name="text"></param>
+	<param name="imageIndex"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.String,System.String)">
+	<summary>
+ Creates and adds a ListViewItem in the collection with the specified information.
+ </summary>
+	<param name="text"></param>
+	<param name="imageKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.String,System.String,System.Int32)">
+	<summary>
+ Creates and adds a ListViewItem in the collection with the specified information.
+ </summary>
+	<param name="key"></param>
+	<param name="text"></param>
+	<param name="imageIndex"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.String,System.String,System.String)">
+	<summary>
+ Creates and adds a ListViewItem in the collection with the specified information.
+ </summary>
+	<param name="key"></param>
+	<param name="text"></param>
+	<param name="imageKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Add(System.Windows.Forms.ListViewItem)">
+	<summary>
+ Adds the specified ListViewItem in the collection
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Contains(System.Windows.Forms.ListViewItem)">
+	<summary>
+ Determines whether the specified item is existing within the collection.
+ </summary>
+	<param name="listviewitem"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.ContainsKey(System.String)">
+	<summary>
+ Determines whether the collection contains an item with the specified key.
+ </summary>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Remove(System.Windows.Forms.ListViewItem)">
+	<summary>
+ Removes the specified item from teh collection.
+ </summary>
+	<param name="item"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.RemoveAt(System.Int32)">
+	<summary>
+ Removes the element at the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.RemoveByKey(System.String)">
+	<summary>
+ Removes the item with the specified key in the collection.
+ </summary>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.IndexOfKey(System.String)">
+	<summary>
+ Retrieves the item in the collection with the specified key.
+ </summary>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Insert(System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Insert a ListViewItem in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<param name="key"></param>
+	<param name="text"></param>
+	<param name="imageIndex"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ListItemCollection.Insert(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Insert a ListViewItem in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<param name="key"></param>
+	<param name="text"></param>
+	<param name="imageKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ListItemCollection.Count">
+	<summary>
+ Gets the number of elements in the collection.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ListItemCollection.Item(System.Int32)">
+	<summary>
+ Gets or sets the ListViewItem in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ListItemCollection.Item(System.String)">
+	<summary>
+ Gets the ListViewItem with the specified key in the collection.
+ </summary>
+	<param name="key"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.ListItemCollection">
+	<summary>
+ Collection of list items.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeInfo.Data">
+	<summary>
+ Gets or sets the nodes data / text.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeInfo.Image">
+	<summary>
+ Gets or sets the node's image.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeInfo.ImageExpanded">
+	<summary>
+ Gets or sets the node's expanded image.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeInfo.Key">
+	<summary>
+ Gets or sets the node's key.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.NodeInfo">
+	<summary>
+ Tree node information
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeExpadedImageInfo.ImageKey">
+	<summary>
+ Gets or sets the node's expanded image key.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeExpadedImageInfo.ImageIndex">
+	<summary>
+ Gets or sets the node's expanded image index.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NodeExpadedImageInfo.Image">
+	<summary>
+ Gets or sets the node's expanded image.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.NodeExpadedImageInfo">
+	<summary>
+ Tree node's expenaded image information.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowListEventArgs.Row">
+	<summary>
+ Determines the current selected row index.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowListEventArgs.Col">
+	<summary>
+ Determines the current selected column index.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowListEventArgs.ListViewItem">
+	<summary>
+ Determines the current associated ListViewItem with the selected cell.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.RowListEventArgs">
+	<summary>
+ Row listviewitem event arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowNodeEventArgs.Row">
+	<summary>
+ Determines the current grid row index.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowNodeEventArgs.Col">
+	<summary>
+ Determines the current grid column index.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.ViewingFlexGrid.RowNodeEventArgs.Node">
+	<summary>
+ Determines the current grid node.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.RowNodeEventArgs">
+	<summary>
+ Row's node event arguments.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.CheckBoxKey">
+	<summary>
+ Gets or sets the node's checkbox value field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.DataSource">
+	<summary>
+ Gets or sets the tree node's default data source (Grid's command text and connection string property will be disregarded if this is set).
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.FirstLevelNode">
+	<summary>
+ Gets the first level node's information.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.ImageExpadedKey">
+	<summary>
+ Gets or sets the image expanded field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.ImageKey">
+	<summary>
+ Gets or sets image field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.Key">
+	<summary>
+ Gets or sets key field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.TextKey">
+	<summary>
+ Gets or sets image field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.TreeHeaderCaption">
+	<summary>
+ Gets or sets the tree node's column header text.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.ParentKey">
+	<summary>
+ Gets or sets parent key field name.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.ShowCheckBoxes">
+	<summary>
+ Gets or sets whether nodes will be associated with checkboxes or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.ShowHeader">
+	<summary>
+ Gets or sets whether the tree header is shown upon tree loading or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeSourceInfo.#ctor(C1.Win.C1FlexGrid.C1FlexGrid)">
+	<summary>
+ Creates a new instance of TreeSourceInfo.
+ </summary>
+	<param name="grid"></param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.TreeSourceInfo">
+	<summary>
+ Tree data source key fields.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.Aggregate">
+	<summary>
+ Gets or sets the aggregate to use for the grouping.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.Caption">
+	<summary>
+ Gets or sets the grouping tree caption.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.ColumnsVisible">
+	<summary>
+ Gets or sets whether column range specified is visible or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.From">
+	<summary>
+ Gets or sets the beginning column index of the grouping tree.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.Level">
+	<summary>
+ Gets or sets the tree level.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.To">
+	<summary>
+ Gets or sets the last column index of the grouping tree.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.#ctor(System.Int32,System.Int32)">
+	<summary>
+ Creates a new instance of TreeGroupingInfo.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.#ctor(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum)">
+	<summary>
+ Creates a new instance of TreeGroupingInfo.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.#ctor(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32)">
+	<summary>
+ Creates a new instance of TreeGroupingInfo.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo.#ctor(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32,System.Boolean)">
+	<summary>
+ Creates a new instance of TreeGroupingInfo.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<param name="columnvisibility">Determines whether columns included to the group is visible or not.</param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.TreeGroupingInfo">
+	<summary>
+ Row grouping information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Groups(System.Int32)">
+	<summary>
+ Gets or sets the tree group in the specified index of the collection.
+ </summary>
+	<param name="index"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32,System.String)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<param name="caption">Tree group caption.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<param name="caption">Tree group caption.</param>
+	<param name="columnvisibility">Determines whether columns included to the group is visible or not.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32,System.Boolean)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column to include in the group.</param>
+	<param name="lastcolumn">Last column to include in the group.</param>
+	<param name="treeaggregate">Aggregate to use.</param>
+	<param name="treelevel">Tree level.</param>
+	<param name="columnvisibility">Determines whether columns included to the group is visible or not.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Add(AMS_Controls.ViewingFlexGrid.TreeGroupingInfo)">
+	<summary>
+ Adds a tree group in the collection.
+ </summary>
+	<param name="treegroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Contains(System.Int32,System.Int32)">
+	<summary>
+ Determines whether the specified tree group is existing within the collection or not.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Contains(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum)">
+	<summary>
+ Determines whether the specified tree group is existing within the collection or not.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<param name="treeaggregate">Aggregate used by the group.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Contains(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32)">
+	<summary>
+ Determines whether the specified tree group is existing within the collection or not.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<param name="treeaggregate">Aggregate used by the group.</param>
+	<param name="treelevel">Tree level.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Contains(AMS_Controls.ViewingFlexGrid.TreeGroupingInfo)">
+	<summary>
+ Determines whether the specified tree group is existing within the collection or not.
+ </summary>
+	<param name="treegroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Remove(System.Int32,System.Int32)">
+	<summary>
+ Removes the specified tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Remove(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum)">
+	<summary>
+ Removes the specified tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<param name="treeaggregate">Aggregate used by the group.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Remove(System.Int32,System.Int32,C1.Win.C1FlexGrid.AggregateEnum,System.Int32)">
+	<summary>
+ Removes the specified tree group in the collection.
+ </summary>
+	<param name="startingcolumn">Starting column included in the group.</param>
+	<param name="lastcolumn">Last column included in the group.</param>
+	<param name="treeaggregate">Aggregate used by the group.</param>
+	<param name="treelevel">Tree level.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.TreeGroupCollection.Remove(AMS_Controls.ViewingFlexGrid.TreeGroupingInfo)">
+	<summary>
+ Removes the specified tree group in the collection.
+ </summary>
+	<param name="treegroup"></param>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid.TreeGroupCollection">
+	<summary>
+ Collection of tree grouping information.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.DataSource">
+	<summary>
+ Gets or sets the data source for the grid.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.DataSourceSettings">
+	<summary>
+ Gets the data source information that is use to load and provide data binding to the C1FlexGrid. 
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.EditableParentNodes">
+	<summary>
+ Gets or sets whether to allow editing to parent nodes and its cell values when in tree mode.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.GradientColor">
+	<summary>
+ Gets the gradient color patterns.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.GroupBy">
+	<summary>
+ Gets the tree grouping ranges to implement when calling PerformGroup method.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ImageList">
+	<summary>
+ Gets or sets the imagelist to refer for the tree node's images.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.IsTreeView">
+	<summary>
+ Gets whether the grid is acting a treeview or not.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ListItems">
+	<summary>
+ Gets the collection of listviewitems in the grid rendering the grid to act as a listview.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.ListItemsSelectionMode">
+	<summary>
+ Gets or sets the listview item's selection mode when grid acts as a ListView.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.LoadingImageBox">
+	<summary>
+ Gets or sets the ajax loader image box for the ViewingFlexGrid.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.NoDataDisplay">
+	<summary>
+ Gets or sets grid display when there is no row of record is loaded.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.SelectedListItem">
+	<summary>
+ Gets the current selected list view item when grid is in ListView mode.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.SelectedNode">
+	<summary>
+ Gets or sets the selected tree node.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.ViewingFlexGrid.TreeSourceSettings">
+	<summary>
+ Gets the tree data source key field settings.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.FindNodeByData(System.Object)">
+	<summary>
+ Gets an existing node with the specified data.
+ </summary>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.FindNodeByData(C1.Win.C1FlexGrid.Node,System.Object)">
+	<summary>
+ Gets an existing node with the specified data within the specified node.
+ </summary>
+	<param name="node"></param>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.FindNodeByKey(System.Object)">
+	<summary>
+ Gets an existing node with the specified key.
+ </summary>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.FindNodeByKey(C1.Win.C1FlexGrid.Node,System.String)">
+	<summary>
+ Gets an existing node with the specified key within the specified node.
+ </summary>
+	<param name="node"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GetApplicableVisualStyle">
+	<summary>
+ Gets the suited visual style based on the current DevComponents.DotNetBar theme.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GetCellCheck(System.String)">
+	<summary>
+ Returns whether all rows or the specified column were marked as check or not.
+ </summary>
+	<param name="name"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GetCellCheck(System.Int32)">
+	<summary>
+ Returns whether all rows or the specified column were marked as check or not.
+ </summary>
+	<param name="index"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GetCellCheck(C1.Win.C1FlexGrid.Column)">
+	<summary>
+ Returns whether all rows or the specified column were marked as check or not.
+ </summary>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.GetNodeExpandedImageInfo(C1.Win.C1FlexGrid.Node)">
+	<summary>
+ Gets the node expanded image information for the specified node.
+ </summary>
+	<param name="node"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.LoadTreeAsync">
+	<summary>
+ Loads the grid as a treeview asynchronously.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ReloadAsync">
+	<summary>
+ Retrieves and binds the datasource generated into the grid using the details specified in DataSourceSettings property asynchronously.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,C1.Win.C1FlexGrid.Column)">
+	<summary>
+ Adds a sub total node for the specified column.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="totalin"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,System.String)">
+	<summary>
+ Adds a sub total node for the specified column.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="totalin"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,System.Int32)">
+	<summary>
+ Adds a sub total node for the specified column.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="totalin"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,C1.Win.C1FlexGrid.Column,C1.Win.C1FlexGrid.Column)">
+	<summary>
+ Adds a sub total node for the specified column ranges.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="fromcol"></param>
+	<param name="tocol"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,System.String,System.String)">
+	<summary>
+ Adds a sub total node for the specified column ranges.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="fromcol"></param>
+	<param name="tocol"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.AddNodeTotals(C1.Win.C1FlexGrid.Node,System.String,System.Int32,System.Int32)">
+	<summary>
+ Adds a sub total node for the specified column ranges.
+ </summary>
+	<param name="node"></param>
+	<param name="rootcolumn"></param>
+	<param name="fromcol"></param>
+	<param name="tocol"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.CollapseNodes">
+	<summary>
+ Collapses all of the nodes.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.CollapseNodes(System.Int32)">
+	<summary>
+ Collapses each of nodes with the level greater than or equal the specified level.
+ </summary>
+	<param name="minlevel"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ExpandParentNode(C1.Win.C1FlexGrid.Node)">
+	<summary>
+ Expands the parent node (up to the top most node) of the specified node.
+ </summary>
+	<param name="node"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.LoadTree">
+	<summary>
+ Loads the grid as a treeview.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.MimeRow(C1.Win.C1FlexGrid.Row,C1.Win.C1FlexGrid.Row)">
+	<summary>
+ Copies all row value from a row into another row.
+ </summary>
+	<param name="copyrow">From row.</param>
+	<param name="copyto">To row.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.MimeRow(System.Int32,System.Int32)">
+	<summary>
+ Copies all row value from a row into another row.
+ </summary>
+	<param name="copyrowindex">From row index.</param>
+	<param name="copytoindex">To row index.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.PerformGroup">
+	<summary>
+ Performs the tree row grouping supplied in the GroupBy property.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.PreFormatFlexGrid">
+	<summary>
+ Renders predefined column formating (for numeric and date fields) of the current FlexGrid.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.PreFormatFlexGrid(C1.Win.C1FlexGrid.C1FlexGrid)">
+	<summary>
+ Renders predefined column formating (for numeric and date fields) for the specified C1FlexGrid.
+ </summary>
+	<param name="c1fg">C1FlexGrid to format.</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.Reload">
+	<summary>
+ Retrieves and binds the datasource generated into the grid using the details specified in DataSourceSettings property.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.RemoveItem">
+	<summary>
+ Removes the last row in the grid and into the binded data source.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.RemoveItem(C1.Win.C1FlexGrid.Row)">
+	<summary>
+ Removes the specified row in the grid and into the binded data source.
+ </summary>
+	<param name="row"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.RemoveItem(System.Int32)">
+	<summary>
+ Removes the specified row at the specified index in the grid and into the binded data source.
+ </summary>
+	<param name="row"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetCellFocusByPoints(System.Drawing.Point)">
+	<summary>
+ Sets the cell focus on an specific row and column thru the given coordinates.
+ </summary>
+	<param name="location"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetCellFocusByPoints(System.Int32,System.Int32)">
+	<summary>
+ Sets the cell focus on an specific row and column thru the given coordinates.
+ </summary>
+	<param name="x"></param>
+	<param name="y"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNodeExpandedImage(C1.Win.C1FlexGrid.Node,System.Drawing.Image)">
+	<summary>
+ Sets the image associated with the specified node when it is selected by the user.
+ </summary>
+	<param name="node"></param>
+	<param name="image"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNodeExpandedImageIndex(C1.Win.C1FlexGrid.Node,System.Int32)">
+	<summary>
+ Sets the imagelist image at the specified index associated with the specified node when it is selected by the user.
+ </summary>
+	<param name="node"></param>
+	<param name="index"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNodeExpandedImageKey(C1.Win.C1FlexGrid.Node,System.String)">
+	<summary>
+ Sets the imagelist image with the specified key associated with the specified node when it is selected by the user.
+ </summary>
+	<param name="node"></param>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNoDisplay">
+	<summary>
+ Sets the display grid with the conventional 'No item(s) could be displayed in this view.' message.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNoDisplay(System.String)">
+	<summary>
+ Sets the display grid with user defined message in a one row- one extended column.
+ </summary>
+	<param name="caption"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNumberings">
+	<summary>
+ Renders the first column with row numberings.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNumberings(System.String)">
+	<summary>
+ Renders the specified column (with specified name) with row numberings.
+ </summary>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetNumberings(System.Int32)">
+	<summary>
+ Renders the specified column index with row numberings.
+ </summary>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetRowDefaultValues(C1.Win.C1FlexGrid.Row)">
+	<summary>
+ Sets default values for each of the columns of the specified row.
+ </summary>
+	<param name="rw"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.SetRowDefaultValues(System.Int32)">
+	<summary>
+ Sets default values for each of the columns of the specified row index.
+ </summary>
+	<param name="index"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ColumnTotal(C1.Win.C1FlexGrid.Column)">
+	<summary>
+ Gets the summation of the specified column's values.
+ </summary>
+	<param name="ofcolumn"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ColumnTotal(System.String)">
+	<summary>
+ Gets the summation of the specified column's values.
+ </summary>
+	<param name="name"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ColumnTotal(System.Int32)">
+	<summary>
+ Gets the summation of the specified column's values.
+ </summary>
+	<param name="index"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ExportToExcel">
+	<summary>
+ Exportd the current data in the grid directly to Microsoft Excel.
+ </summary>
+	<returns>Exported filename.</returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ExportToExcel(System.Boolean)">
+	<summary>
+ Exportd the current data in the grid directly to Microsoft Excel.
+ </summary>
+	<param name="withtree">Include grid's tree structure.</param>
+	<returns>Exported filename.</returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.ViewingFlexGrid.ExportToExcel(System.Boolean,System.Boolean)">
+	<summary>
+ Exportd the current data in the grid directly to Microsoft Excel.
+ </summary>
+	<param name="withtree">Include grid's tree structure.</param>
+	<param name="launchexcel">Launch microsoft excel after data is saved.</param>
+	<returns>Exported filename.</returns>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.ViewingFlexGrid">
+	<summary>
+ Derived from C1.Win.C1FlexGrid for automated data binding.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.MetroGridHelper._scrollbar">
+	<summary>
+ The associated scrollbar or scrollbar collector
+ </summary>
+</member><member name="F:AMS_Controls.MetroGridHelper._grid">
+	<summary>
+ Associated Grid
+ </summary>
+</member><member name="F:AMS_Controls.MetroGridHelper._ignoreScrollbarChange">
+	<summary>
+ if greater zero, scrollbar changes are ignored
+ </summary>
+</member><member name="F:AMS_Controls.MetroGridHelper._ishorizontal">
+	<summary>
+	</summary>
+</member><member name="M:AMS_Controls.MetroGridHelper.UpdateScrollbar">
+	<summary>
+ Updates the scrollbar values
+ </summary>
+</member><member name="M:AMS_Controls.MetroGridHelper.VisibleFlexGridRows">
+	<summary>
+ Determine the current count of visible rows
+ </summary>
+	<returns></returns>
+</member><member name="M:AMS_Controls.MetroGridHelper.VisibleFlexGridCols">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="F:AMS_Controls.Controls.RequiredFieldMarker.IndicatorPositionEnum.LeftTop">
+	<summary>
+ Upper left corner of the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AMS_Controls.Controls.RequiredFieldMarker.IndicatorPositionEnum.RigthTop">
+	<summary>
+ Upper right corner of the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.Controls.RequiredFieldMarker.IndicatorPositionEnum">
+	<summary>
+ Required field marking's position within the controls bounds.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.#ctor">
+	<summary>
+ Creates a new instance of TarsierEyes.Controls.RequiredFieldMarker.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AMS_Controls.Controls.RequiredFieldMarker.IndicatorPosition">
+	<summary>
+ Gets or sets required field indicator's position within the control's bounds.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.GetRequired(System.Windows.Forms.Control)">
+	<summary>
+ Gets required field indicator's presence for this control.
+ </summary>
+	<param name="ctrl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetRequired(System.Windows.Forms.Control,System.Boolean)">
+	<summary>
+ Sets required field indicator's presence for this control.
+ </summary>
+	<param name="ctrl"></param>
+	<param name="req"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.GetRequiredIndicatorColor(System.Windows.Forms.Control)">
+	<summary>
+ Gets required field indicator's fill color.
+ </summary>
+	<param name="ctrl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetRequiredIndicatorColor(System.Windows.Forms.Control,System.Drawing.Color)">
+	<summary>
+ Sets required field indicator's fill color.
+ </summary>
+	<param name="ctrl"></param>
+	<param name="clr"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.CanExtend(System.Object)">
+	<summary>
+ Validates if evaluated control is supported by P5Require.
+ </summary>
+	<param name="extendee">Control to be evaluated.</param>
+	<returns>True or false</returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.ControlIsRequired(System.Windows.Forms.Control)">
+	<summary>
+ Returns whether the specified control is marked as required using the RequiredFieldMarker.
+ </summary>
+	<param name="ctrl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.IsRequired(System.Windows.Forms.Control)">
+	<summary>
+ True if enclosed control was marked as required, otherwise false.
+ </summary>
+	<param name="ctrl">Control to be evaluated.</param>
+	<returns>True or false</returns>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetAsRequired(System.Windows.Forms.Control)">
+	<summary>
+ Sets a control with a required field indicator.
+ </summary>
+	<param name="ctrl">Control to be mark with</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetAsRequired(System.Windows.Forms.Control[])">
+	<summary>
+ Sets and attaches each of the specified controls with a rquired field indicator.
+ </summary>
+	<param name="ctrls"></param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetAsRequired(System.Windows.Forms.Control,System.Boolean)">
+	<summary>
+ Sets or unsets a control with a required field indicator.
+ </summary>
+	<param name="ctrl">Control to be mark / unmark with</param>
+	<param name="required">Determines whether to place a mark or not</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetAsRequired(System.Windows.Forms.Control,AMS_Controls.Controls.RequiredFieldMarker.IndicatorPositionEnum)">
+	<summary>
+ Sets a control with a required field indicator in the specified position within the control's bounds..
+ </summary>
+	<param name="ctrl">Control to be mark with</param>
+	<param name="position">Position to place the mark</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.SetAsRequired(System.Windows.Forms.Control,AMS_Controls.Controls.RequiredFieldMarker.IndicatorPositionEnum,System.Drawing.Color)">
+	<summary>
+ Sets a control with a required field indicator in the specified position within the control's bounds..
+ </summary>
+	<param name="ctrl">Control to be mark with</param>
+	<param name="position">Position to place the mark</param>
+	<param name="color">Required field indicator's fill color</param>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.UpdateIndicator(System.Windows.Forms.Control)">
+	<summary>
+ Updates 'required' marked control just in case there is a repainting of the marked control and
+ the indicator attached to it needs to be repositioned and redrawn also.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:AMS_Controls.Controls.RequiredFieldMarker.UpdateIndicators">
+	<summary>
+ Updates 'required' marked controls just in case there is a repainting of each marked control(s) and
+ the indicator(s) attached to it needs to be repositioned and redrawn also.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:AMS_Controls.Controls.RequiredFieldMarker">
+	<summary>
+ Control extender for marking input controls with a tiny indicator.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

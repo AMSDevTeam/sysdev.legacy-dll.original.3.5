@@ -1,0 +1,214 @@
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\Development.Materia.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.Design.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MySql.Data.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\office.dll
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\Development.Materia.xml
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.pdb
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.Design.pdb
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.pdb
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.vbprojResolveAssemblyReference.cache
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+E:\Systems Development\AMSControl\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+E:\Systems Development\AMSControl\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.Design.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\office.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\Development.Materia.xml
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.pdb
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.Design.pdb
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.pdb
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.vbprojResolveAssemblyReference.cache
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+E:\Systems Development\SVN Repo\scms7even\AMS_Controls\bin\x86\Debug\MySql.Data.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.xml
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+D:\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.xml
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+D:\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\DevComponents.DotNetBar2.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\System.Windows.Forms.DataVisualization.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.vbprojResolveAssemblyReference.cache
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+C:\MLI\Systems Development\TWE\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DevComponents.DotNetBar2.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Design.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\System.Windows.Forms.DataVisualization.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.pdb
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Design.pdb
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.pdb
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+C:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Design.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\System.Windows.Forms.DataVisualization.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.C1Report.2.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Design.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.C1Report.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.Win.C1Command.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.Win.C1FlexGrid.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.Win.C1Input.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.Win.C1Report.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\C1.Win.C1SuperTooltip.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\DevComponents.DotNetBar2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\Development.Materia.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\MetroFramework.Design.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\MetroFramework.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\MetroFramework.Fonts.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DLL\TarsierEyes.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.pdb
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\AMS_Controls.xml
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.C1Report.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Command.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1FlexGrid.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Input.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1List.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1Report.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.C1SuperTooltip.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\DevComponents.DotNetBar2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\Development.Materia.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Design.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\MetroFramework.Fonts.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\TarsierEyes.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\System.Windows.Forms.DataVisualization.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\C1.Win.2.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\bin\x86\Debug\stdole.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.PickListBinder.resources
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.ViewingFlexGrid.resources
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.Resources.resources
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.vbproj.GenerateResource.Cache
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll.licenses
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.xml
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.pdb
+D:\AMS DLL\AMSDLL\AMSDevelopment\AMS_Controls\obj\x86\Debug\AMS_Controls.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,33 @@
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.pdb
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\MySql.Data.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.vbprojResolveAssemblyReference.cache
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.Resources.resources
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.LoadingForm.resources
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.vbproj.GenerateResource.Cache
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.dll
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.xml
+D:\MLI\Systems Development\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.pdb
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.pdb
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.xml
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\MySql.Data.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.Resources.resources
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.LoadingForm.resources
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.vbproj.GenerateResource.Cache
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.dll
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.xml
+D:\AMS DLL\AMSDLL\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.pdb
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.dll
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.pdb
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\TarsierEyes.xml
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\MySql.Data.dll
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\bin\Debug\stdole.dll
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.vbprojResolveAssemblyReference.cache
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.Resources.resources
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.LoadingForm.resources
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.vbproj.GenerateResource.Cache
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.dll
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.xml
+D:\AMS DLL\AMSDLL - Latest Version\AMSDevelopment\TarsierEyes\TarsierEyes\obj\Debug\TarsierEyes.pdb
